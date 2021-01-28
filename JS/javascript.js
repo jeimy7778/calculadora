@@ -45,20 +45,18 @@ function validateOperator(arrayData) {
     numero1= Number(arrayData[2]);
 
    
-    switch (arrayData)[1] {
+    switch (arrayData[1]) {
         case '+':
             resultado = numero1 + numero2;
             break;
         case '-':
-            resultado = numero1 - numero2
+            resultado = numero1 - numero2;
             break;
         case '*':
-            resultado = numero1 * numero2
+            resultado = numero1 * numero2;
             break;
         case '/':
-            resultado = numero1 / numero2
+            resultado = numero1 / numero2;
             break;          
-        default:
-            break;
     }                
 }
